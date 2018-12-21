@@ -12,8 +12,8 @@ One of problem is that we have needed to communicate withe a lot of people or me
   <p>Start the project
   To start the project, we need to use the class "Launcher" in the package "Welcome". Thanks to this activity, we have access to an interface of connection </p>
   
-      <p>Problem(s) encountered : I didn't have specific problem for this activity but it's very import to modify the Android Manisfest to                                    have a functional application</p>
-      <p>Solution(s) :             /</p>
+      Problem(s) encountered : I didn't have specific problem for this activity but it's very import to modify the Android Manisfest to                                    have a functional application
+      Solution(s) :             /
 
   <p>Connexion</p>
   
@@ -21,9 +21,9 @@ One of problem is that we have needed to communicate withe a lot of people or me
    
       Problem(s) encountered : 
       
-                              To sign in, we need to have all the contact thanks to a LiveData but I don't understand how to have access at                               this list and its content 
+                              To sign in, we need to have all the contact thanks to a LiveData but I don't understand how to have access atthis list and its content 
                               
-                              I have tried to create this interface in mvvm thanks to a tutorel. But a problem appears if I put the files                                 in a package and an other because the binding
+                              I have tried to create this interface in mvvm thanks to a tutorel. But a problem appears if I put the files in a package and an other because the binding
                               
       YOU CAN HAVE ACCESS AT THESE DOCUMENTS IN THE PROJECT -> DOCUMENTS OUTSIDE PACKAGAGE
       

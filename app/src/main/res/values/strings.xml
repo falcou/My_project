@@ -1,7 +1,7 @@
 <resources>
 
     <!--Titles for app-->
-    <string name="app_name">My contacts</string>
+    <string name="app_name">My contacts of PFH</string>
 
     <!--Global strings-->
     <string name="email"><b>Email</b></string>

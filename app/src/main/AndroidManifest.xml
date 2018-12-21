@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.juliefalcou.my_mvvm_app">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:fullBackupContent="true">
+        <activity
+            android:name=".Welcome.Launcher"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Connexion.Connexion"
+            android:parentActivityName=".Welcome.Launcher" />
+        <activity
+            android:name=".Directory.Display_repository"
+            android:parentActivityName=".Connexion.Connexion" />
+        <activity
+            android:name=".Directory.Modify_Contact"
+            android:parentActivityName=".Directory.Display_repository" />
+        <activity
+            android:name=".Connexion.Profile"
+            android:parentActivityName=".Connexion.Connexion" />
+    </application>
+</manifest>

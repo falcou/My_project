@@ -1,0 +1,73 @@
+<resources>
+
+    <!--Titles for app-->
+    <string name="app_name">My contacts</string>
+
+    <!--Global strings-->
+    <string name="email"><b>Email</b></string>
+    <string name="password"><b>Password</b></string>
+
+    <!--Stings for main interface-->
+    <string name="main_textview_title"><b>THE APPLICATION FOR \n YOUR PFH</b></string>
+    <string name="main_string_button"><b>START</b></string>
+
+    <!--Strings for the connexion-->
+    <string name="connexion"><b>Connexion</b></string>
+    <string name="account"><b>No account ? Sign up !</b></string>
+
+    <!--Strings for the contact's details-->
+    <string name="identity"><b>IDENTITY</b></string>
+    <string name="firstname"><b>Firstname</b></string>
+    <string name="lastname"><b>Lastname</b></string>
+    <string name="job"><b>JOB</b></string>
+    <string name="role"><b>Role</b></string>
+    <string name="place"><b>Place</b></string>
+    <string name="contact"><b>CONTACT</b></string>
+    <string name="phonenumber"><b>Phone number</b></string>
+
+    <!--Strings for the profile's content-->
+    <string-array name="category">
+        <item>Etudiant Staff</item>
+        <item>Etudiant Responsable</item>
+        <item>Suiveur</item>
+        <item>Administration</item>
+        <item>Direction</item>
+        <item>Communication</item>
+        <item>Scolarité</item>
+        <item>Maintenance</item>
+        <item>Professeur/Référent</item>
+    </string-array>
+    <string-array name="campus">
+        <item>Laval</item>
+        <item>Paris</item>
+    </string-array>
+
+    <!--Strings for the database-->
+    <string name="paris">Paris</string>
+    <string name="laval">Laval</string>
+        <!--Strings for the first contact-->
+        <string name="firstname1">Olivier</string>  <string name="lastname1">Cavaillon</string>
+        <string name="role1">Responsable Relations Entreprises</string>
+        <string name="email1">olivier.cavaillon@esiea.fr</string>
+        <string name="phone1">0649061543</string>   <string name="password1">olicav</string>
+        <!--Strings for the second contact-->
+        <string name="firstname2">Gloria</string>  <string name="lastname2">Fuertes</string>
+        <string name="role2">Responsable de l\'international</string>
+        <string name="email2">gloria.fuertes@esiea.fr</string>
+        <string name="phone2">0687496109</string>   <string name="password2">glofue</string>
+        <!--Strings for the third contact-->
+        <string name="firstname3">Susan</string>  <string name="lastname3">Loubet</string>
+        <string name="role3">Directrice de l\'international</string>
+        <string name="email3">susan.loubet@et.esiea.fr</string>
+        <string name="phone3">0680854097</string>   <string name="password3">suslou</string>
+        <!--Strings for the fourth contact-->
+        <string name="firstname4">Valérie</string>  <string name="Ternay">Fuertes</string>
+        <string name="role4">Responsable des associations</string>
+        <string name="email4">valerie.ternay@et.esiea.fr</string>
+        <string name="phone4">0629480596</string>   <string name="password4">valter</string>
+
+
+</resources>
+
+
+

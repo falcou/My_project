@@ -19,10 +19,15 @@ One of problem is that we have needed to communicate withe a lot of people or me
   <p>Connexion
   
    Now you arrive on an interface for connect you. You have two possibilities : Create an account or sign in.
+   
       Problem(s) encountered : 
+      
                               To sign in, we need to have all the contact thanks to a LiveData but I don't understand how to have access at                               this list and its content 
+                              
                               I have tried to create this interface in mvvm thanks to a tutorel. But a problem appears if I put the files                                 in a package and an other because the binding
+                              
       YOU CAN HAVE ACCESS AT THESE DOCUMENTS IN THE PROJECT -> DOCUMENTS OUTSIDE PACKAGAGE
+      
       Solution(s) :           We give access if we have an email and a password not empty 
                               We have not used the mvvm for this part
 </p>.

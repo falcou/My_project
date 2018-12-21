@@ -10,7 +10,6 @@ One of problem is that we have needed to communicate withe a lot of people or me
 <h1>Structure</h1>
 
   <p>Start the project
-  
   To start the project, we need to use the class "Launcher" in the package "Welcome". Thanks to this activity, we have access to an interface of connection
       Problem(s) encountered : I didn't have specific problem for this activity but it's very import to modify the Android Manisfest to                                    have a functional application
       Solution(s) :             /
